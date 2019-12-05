@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="STM32EL_STM32F427IIH6"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STM32EL_STM32F427IIH6">
+				<Option output="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/STM32EL_STM32F427IIH6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add option="-DFreeRTOS_TOTAL_HEAP_SIZE=50*1024"/>
+					<Add option="-DMain_TOTAL_HEAP_SIZE=512"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/Legacy"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/portable"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/portable/GCC/ARM_CM4F"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/portable/MemMang"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/CMSIS_RTOS"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/System"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/RCC"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/Thread"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/IOPort"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/SerialPort"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/OutPutStream"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/Tool"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/InPutStream"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/WatchDog"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/Timer"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/PWM"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/SPI"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/CAN"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/DMA"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/User"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/User/RoboMasterPackge/MPU6500"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 STM32EL_STM32F427IIH6"/>
+					<CompileFile command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STM32EL_STM32F427IIH6/fast">
+				<Option output="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/STM32EL_STM32F427IIH6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add option="-DFreeRTOS_TOTAL_HEAP_SIZE=50*1024"/>
+					<Add option="-DMain_TOTAL_HEAP_SIZE=512"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/Legacy"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/portable"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/portable/GCC/ARM_CM4F"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/portable/MemMang"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/CMSIS_RTOS"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/System"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/RCC"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/Thread"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/IOPort"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/SerialPort"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/OutPutStream"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/Tool"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/InPutStream"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/WatchDog"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/Timer"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/PWM"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/SPI"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/CAN"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/DMA"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/User"/>
+					<Add directory="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/User/RoboMasterPackge/MPU6500"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 STM32EL_STM32F427IIH6/fast"/>
+					<CompileFile command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/CMSIS_RTOS/cmsis_os.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/CMSIS_RTOS/cmsis_os.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/croutine.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/event_groups.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/FreeRTOS.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/StackMacros.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/croutine.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/deprecated_definitions.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/event_groups.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/list.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/message_buffer.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/mpu_prototypes.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/mpu_wrappers.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/portable.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/projdefs.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/queue.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/semphr.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/stack_macros.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/stream_buffer.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/task.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/include/timers.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/list.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/portable/GCC/ARM_CM4F/port.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/portable/MemMang/heap_4.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/queue.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/stream_buffer.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/tasks.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/FreeRTOS/timers.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/cmsis_armcc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/cmsis_armclang.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/cmsis_compiler.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/cmsis_gcc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/cmsis_iccarm.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/cmsis_version.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/core_armv8mbl.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/core_armv8mml.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/core_cm0.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/core_cm0plus.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/core_cm1.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/core_cm23.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/core_cm3.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/core_cm33.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/core_cm4.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/core_cm7.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/core_sc000.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/core_sc300.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/mpu_armv7.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/mpu_armv8.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/stm32f427xx.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/stm32f4xx.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/system_stm32f4xx.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/cmsis/tz_context.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/Legacy/stm32_hal_legacy.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/Legacy/stm32f4xx_hal_can_legacy.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32_assert_template.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_adc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_adc_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_can.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_cec.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_cortex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_crc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_cryp.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_cryp_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_dac.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_dac_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_dcmi.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_dcmi_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_def.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_dfsdm.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_dma.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_dma2d.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_dma_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_dsi.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_eth.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_exti.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_flash.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_flash_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_fmpi2c.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_fmpi2c_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_gpio.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_gpio_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_hash.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_hash_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_hcd.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_i2c.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_i2c_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_i2s.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_i2s_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_irda.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_iwdg.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_lptim.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_ltdc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_ltdc_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_mmc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_nand.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_nor.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_pccard.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_pcd.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_pcd_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_pwr.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_pwr_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_qspi.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_rcc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_rcc_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_rng.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_rtc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_rtc_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_sai.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_sai_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_sd.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_sdram.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_smartcard.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_smbus.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_spdifrx.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_spi.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_sram.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_tim.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_tim_ex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_uart.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_usart.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_hal_wwdg.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_adc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_bus.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_cortex.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_crc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_dac.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_dma.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_dma2d.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_exti.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_fmc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_fsmc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_gpio.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_i2c.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_iwdg.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_lptim.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_pwr.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_rcc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_rng.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_rtc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_sdmmc.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_spi.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_system.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_tim.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_usart.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_usb.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_utils.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Inc/driver/stm32f4xx_ll_wwdg.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/Legacy/stm32f4xx_hal_can.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_adc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_can.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_cec.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_cortex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_crc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_cryp.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_cryp_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_dac.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_dac_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_dcmi.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_dcmi_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_dfsdm.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_dma.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_dma2d.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_dsi.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_eth.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_exti.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_flash.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_fmpi2c.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_fmpi2c_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_gpio.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_hash.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_hash_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_hcd.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_i2c.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_i2s.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_i2s_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_irda.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_iwdg.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_lptim.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_ltdc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_ltdc_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_mmc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_nand.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_nor.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_pccard.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_pcd.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_pcd_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_pwr.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_qspi.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_rcc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_rng.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_rtc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_rtc_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_sai.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_sai_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_sd.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_sdram.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_smartcard.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_smbus.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_spdifrx.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_spi.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_sram.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_tim.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_uart.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_usart.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_hal_wwdg.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_adc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_crc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_dac.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_dma.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_dma2d.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_exti.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_fmc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_fsmc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_gpio.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_i2c.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_lptim.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_pwr.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_rcc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_rng.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_rtc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_sdmmc.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_spi.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_tim.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_usart.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_usb.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_BaseLibrary/HAL_STM32F4/Src/stm32f4xx_ll_utils.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/CAN/EL_CAN.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/CAN/EL_CAN.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/DMA/EL_DMA.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/DMA/EL_DMA.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/IOPort/EL_GpioRegisterErr.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/IOPort/EL_IOPort.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/IOPort/EL_IOPort.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/InPutStream/EL_InPutStream.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/OutPutStream/EL_OutPutStream.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/PWM/EL_PWM.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/PWM/EL_PWM.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/RCC/EL_RCC.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/RCC/EL_RCC.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/SPI/EL_SPI.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/SPI/EL_SPI.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/SerialPort/EL_SerialPort.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/SerialPort/EL_SerialPort.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/System/FreeRTOSConfig.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/System/STM32F427IIHx_FLASH.ld">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/System/Src/syscalls.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/System/Src/system_stm32f4xx.c">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/System/Start/startup_stm32f427xx.s">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/System/stm32el.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/System/stm32el_sys.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/System/stm32el_sys.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/System/stm32f4xx_hal_conf.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/Thread/EL_Thread.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/Thread/EL_Thread.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/Timer/EL_Timer.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/Timer/EL_Timer.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/Tool/Volt.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/Tool/Volt.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/WatchDog/EL_WatchDog.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/STM32EL/STM32EL_Kernal/WatchDog/EL_WatchDog.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/User/Main.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/User/RoboMasterPackge/MPU6500/MPU6500.cpp">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/User/RoboMasterPackge/MPU6500/MPU6500.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/User/RoboMasterPackge/MPU6500/MPU6500_Register.h">
+			<Option target="STM32EL_STM32F427IIH6"/>
+		</Unit>
+		<Unit filename="C:/Users/skjsn/WorkSpace/CLionProjects/STM32EL_STM32F427IIH6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

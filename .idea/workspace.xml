@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="STM32EL_STM32F427IIH6" targetName="STM32EL_STM32F427IIH6" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d7068e3-b04a-475a-94af-614360c769d3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+    <option name="clangWarnings" value="-Wno-unused-variable,-Werror=implicit-function-declaration,-Wshadow,-Wno-shadow-field-in-constructor-modified,-Wno-shadow-ivar,-Wno-writable-strings,-Wno-ignored-attributes,-Wno-defaulted-function-deleted" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="92" />
+        <option value="1506" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="Name" />
+        <option value="Value" />
+        <option value="Description" />
+      </list>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="STM32EL_STM32F427IIH6" />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1PxX67DbRUBZbd5su04RSnPHJLB" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.overridden" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../STM32EL" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\skjsn\CLionProjects\STM32EL_STM32F427IIH6\User\RoboMaster Packge\MPU6500" />
+      <recent name="C:\Users\skjsn\CLionProjects\STM32EL_STM32F427IIH6\STM32EL\STM32EL_Kernal\System" />
+      <recent name="C:\Users\skjsn\CLionProjects\STM32EL_STM32F427IIH6" />
+      <recent name="C:\Users\skjsn\CLionProjects\STM32EL_STM32F427IIH6\STM32EL\STM32EL_Kernal\System\Src" />
+      <recent name="C:\Users\skjsn\CLionProjects\STM32EL_STM32F427IIH6\STM32EL\STM32EL_Kernal\System\Start" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\skjsn\CLionProjects\STM32EL_STM32F427IIH6\User" />
+      <recent name="C:\Users\skjsn\CLionProjects\STM32EL_STM32F427IIH6\STM32EL\STM32EL_BaseLibrary\FreeRTOS" />
+      <recent name="C:\Users\skjsn\CLionProjects\STM32EL_STM32F427IIH6\STM32EL\STM32EL_BaseLibrary\FreeRTOS\portable" />
+      <recent name="C:\Users\skjsn\CLionProjects\STM32EL_STM32F427IIH6\STM32EL\STM32EL_BaseLibrary\FreeRTOS\include" />
+      <recent name="C:\Users\skjsn\CLionProjects\STM32EL_STM32F427IIH6\STM32EL\STM32EL_BaseLibrary\HAL_STM32F4\Inc\cmsis" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD STM32EL_STM32F427IIH6">
+    <configuration name="STM32EL_STM32F427IIH6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32EL_STM32F427IIH6" TARGET_NAME="STM32EL_STM32F427IIH6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="STM32EL_STM32F427IIH6" RUN_TARGET_NAME="STM32EL_STM32F427IIH6">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.STM32EL_STM32F427IIH6" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD STM32EL_STM32F427IIH6" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d7068e3-b04a-475a-94af-614360c769d3" name="Default Changelist" comment="" />
+      <created>1566816542732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566816542732</updated>
+      <workItem from="1566816544063" duration="4318000" />
+      <workItem from="1566826913300" duration="399000" />
+      <workItem from="1566827363793" duration="131000" />
+      <workItem from="1566827664424" duration="10333000" />
+      <workItem from="1566842690074" duration="1671000" />
+      <workItem from="1566869995572" duration="24025000" />
+      <workItem from="1567860264970" duration="102000" />
+      <workItem from="1568005862330" duration="16681000" />
+      <workItem from="1568029820103" duration="9200000" />
+      <workItem from="1568039624678" duration="3843000" />
+      <workItem from="1568115061501" duration="12893000" />
+      <workItem from="1568132875281" duration="255000" />
+      <workItem from="1568171838122" duration="7768000" />
+      <workItem from="1568191464637" duration="7838000" />
+      <workItem from="1568209735637" duration="2675000" />
+      <workItem from="1568213231857" duration="794000" />
+      <workItem from="1568519310688" duration="109000" />
+      <workItem from="1568519730012" duration="3627000" />
+      <workItem from="1568524354662" duration="1276000" />
+      <workItem from="1568525877591" duration="3607000" />
+      <workItem from="1568532041836" duration="17382000" />
+      <workItem from="1568612253014" duration="14012000" />
+      <workItem from="1568627870226" duration="158000" />
+      <workItem from="1568690392705" duration="2421000" />
+      <workItem from="1568892471241" duration="209000" />
+      <workItem from="1568893673757" duration="496000" />
+      <workItem from="1568897965996" duration="1526000" />
+      <workItem from="1568941477952" duration="4277000" />
+      <workItem from="1569232713854" duration="8954000" />
+      <workItem from="1569301835606" duration="38271000" />
+      <workItem from="1569359018770" duration="16046000" />
+      <workItem from="1569418894267" duration="13312000" />
+      <workItem from="1569433897955" duration="1163000" />
+      <workItem from="1569435360557" duration="43000" />
+      <workItem from="1569479783843" duration="234000" />
+      <workItem from="1569480767409" duration="75000" />
+      <workItem from="1569481235856" duration="283000" />
+      <workItem from="1569481533349" duration="116000" />
+      <workItem from="1569483226266" duration="9000" />
+      <workItem from="1569483255873" duration="18000" />
+      <workItem from="1569483442286" duration="136000" />
+      <workItem from="1569484419168" duration="228000" />
+      <workItem from="1569577959087" duration="665000" />
+      <workItem from="1569579756028" duration="1803000" />
+      <workItem from="1569591739150" duration="440000" />
+      <workItem from="1569603673019" duration="1452000" />
+      <workItem from="1569607555257" duration="269000" />
+      <workItem from="1569656438286" duration="13000" />
+      <workItem from="1569658233087" duration="106000" />
+      <workItem from="1569662623966" duration="3000" />
+      <workItem from="1569662637907" duration="580000" />
+      <workItem from="1569671514335" duration="767000" />
+      <workItem from="1569735444028" duration="73000" />
+      <workItem from="1570512983197" duration="280000" />
+      <workItem from="1570515586368" duration="145000" />
+      <workItem from="1570519596907" duration="47000" />
+      <workItem from="1570694045650" duration="55000" />
+      <workItem from="1572061101635" duration="297000" />
+      <workItem from="1572062810067" duration="2086000" />
+      <workItem from="1572067317325" duration="4547000" />
+      <workItem from="1572080511068" duration="983000" />
+      <workItem from="1572261325475" duration="6945000" />
+      <workItem from="1572502860979" duration="556000" />
+      <workItem from="1572511553258" duration="730000" />
+      <workItem from="1573144982218" duration="521000" />
+      <workItem from="1573182690502" duration="14000" />
+      <workItem from="1574240479087" duration="107000" />
+      <workItem from="1574396877340" duration="17000" />
+      <workItem from="1574758816553" duration="1966000" />
+      <workItem from="1575014942682" duration="168000" />
+      <workItem from="1575020430639" duration="21000" />
+      <workItem from="1575021429330" duration="143000" />
+      <workItem from="1575021890529" duration="64000" />
+      <workItem from="1575023551882" duration="606000" />
+      <workItem from="1575030288061" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
